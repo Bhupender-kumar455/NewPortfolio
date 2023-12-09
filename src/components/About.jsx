@@ -93,7 +93,7 @@ const About = () => {
             </div>
           </div>
           <div className="contentSecond  animate__animated animate__fadeInRight animate__delay-1s">
-            <h2>my skills</h2>
+            <h1>my skills</h1>
             <div className="circles">
               <CircularProgressbar
                 className="skills"

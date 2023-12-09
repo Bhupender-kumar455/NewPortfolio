@@ -1,7 +1,6 @@
 import React from "react";
 import "./Home.css";
 import "animate.css";
-
 import profilePhoto from "../assets/pink-circle-background-designify.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
@@ -19,7 +18,7 @@ const Home = () => {
             className="name animate__animated animate__fadeInDown animate__delay-1s"
             style={{ color: "#ffa001" }}
           >
-            - Hi, I'm Bhupender.
+            ~ Hi, I'm Bhupender.
             <br />
             <span style={{ color: "#fefefe" }}> Web Developer</span>
           </h1>

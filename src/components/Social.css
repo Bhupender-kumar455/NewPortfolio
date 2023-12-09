@@ -1,0 +1,36 @@
+.socialparent{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+}
+.socialchild{
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    list-style: none;
+}
+
+.socialchild li{
+    background: none !important;
+    border-radius: 50px;
+}
+.socialchild li a{
+    color: white;
+    font-size: 40px;
+    padding: 0 20px;
+    border-radius: 50px;
+}
+.socialchild li a #git{
+    box-shadow: 0 0 30px white;
+    border-radius: 50px;
+}
+.socialchild li a #twitter{
+    color: #1ca1f1;
+    /* border-radius: 50px; */
+    background: none;
+    box-shadow: 0 0 30px white;
+}
+.socialchild li a #linkedin{
+    box-shadow: 0 0 30px #0077b5;
+    color: #0077b5;
+}

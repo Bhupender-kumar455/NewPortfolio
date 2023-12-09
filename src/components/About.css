@@ -92,12 +92,12 @@
   font-size: 15px;
 }
 
-.contentSecond h2 {
+.contentSecond h1 {
   color: #fefefe;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 25px;
-  /* margin: 50px 0; */
+  font-size: 30px;
+  margin: 20px 0;
 }
 
 .expAndeducation .heading {
