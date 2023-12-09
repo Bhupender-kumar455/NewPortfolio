@@ -220,7 +220,7 @@ const About = () => {
                     CSS, and JavaScript I Utilized the Express.js framework for
                     efficient server-side development
                   </p>
-                  <p style={{ margin: "10px 0" }}>
+                  <p className="extralarge" style={{ margin: "10px 0" }}>
                     <strong>Tech used:</strong>
                     HTML,CSS,JS,Express.js,Node.js,MongoDB
                   </p>

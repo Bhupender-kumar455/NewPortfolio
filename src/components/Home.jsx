@@ -4,6 +4,7 @@ import "animate.css";
 import profilePhoto from "../assets/pink-circle-background-designify.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 const Home = () => {
   return (
     <div className="home-parent">
