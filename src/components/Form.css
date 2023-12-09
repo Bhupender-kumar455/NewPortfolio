@@ -1,0 +1,74 @@
+.formParent{
+  max-width: 100%;
+}
+.formParent h2{
+color: #5e5e5e;
+text-transform: uppercase;
+}
+.grid-form {
+    display: grid;
+    gap: 1em;
+    margin-top: 20px;
+    max-width: 100%;
+  }
+  .firstpart{
+    display: flex;
+    column-gap: 20px;
+  }
+
+  .form-row {
+     display: flex;
+     flex-direction: column;
+     align-items: flex-start;
+  }
+
+
+  #email,#name,#subject,#message{
+    font-size: 15px;
+    padding: 17px;
+    color: white;
+    outline: none;
+    border-radius: 20px;
+    border: none;
+    background-color: #252525;
+  }
+    
+  input,
+  textarea {
+    width: 100%;
+  }
+  #message{
+    height: 120px;
+  }
+ 
+  .form-row .moreButton {
+    border: none;
+    font-family: "Poppins", sans-serif;
+    padding: 11px 0px 11px 40px;
+    border-radius: 40px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+   .form-row .moreButton span {
+    margin-left: 10px;
+    background-color: #ffa001;
+    padding: 13px 18px;
+    border-radius: 50px;
+  }
+  .form-row .moreButton:active{
+    scale: 0.9;
+  }
+ .form-row .moreButton:hover {
+    background-color: #ffa001;
+  }
+
+  @media (max-width:430px) {
+    .firstpart{
+      flex-direction: column;
+      row-gap: 20px;
+    }
+    input,textarea{
+      width: 95%;
+    }
+  }
