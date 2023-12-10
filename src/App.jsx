@@ -7,11 +7,13 @@ import Portfolio from "./components/Portfolio";
 import Nav from "./components/Nav";
 import "./components/Cursor.css";
 import DotRing from "./components/Dot";
-function App() {
+import "animate.css";
+function App({ turn }) {
+  console.log(turn);
   return (
     <BrowserRouter>
-      <Nav />
       <DotRing />
+      <Nav />
       <Routes>
         <Route path="/" exact element={<Home />} />
         <Route path="/about" element={<About />} />

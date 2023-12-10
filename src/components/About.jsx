@@ -92,7 +92,7 @@ const About = () => {
               <FontAwesomeIcon className="icon" icon={faDownload} />
             </div>
           </div>
-          <div className="contentSecond  animate__animated animate__fadeInRight animate__delay-1s">
+          <div className="contentSecond  animate__animated animate__fadeInDown animate__delay-1s">
             <h1>my skills</h1>
             <div className="circles">
               <CircularProgressbar
@@ -205,7 +205,7 @@ const About = () => {
         <div className="expAndeducation">
           <h1 className="heading">Expreince and Educations</h1>
           <div className="both">
-            <div className="exp animate__animated animate__fadeInLeft animate__delay-1s">
+            <div className="exp animate__animated animate__fadeInDown animate__delay-1s">
               <div className="card">
                 <div className="logo">
                   <FontAwesomeIcon icon={faSuitcase} />
@@ -267,7 +267,7 @@ const About = () => {
                 </div>
               </div>
             </div>
-            <div className="education animate__animated animate__fadeInRight animate__delay-1s">
+            <div className="education animate__animated animate__fadeInDown animate__delay-1s">
               <div className="card">
                 <div className="logo">
                   <FontAwesomeIcon icon={faUniversity} />

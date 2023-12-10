@@ -26,11 +26,11 @@ const Portfolio = () => {
         <div className="workss">
           <div className="one">
             <img
-              className=" animate__animated animate__fadeInLeft animate__delay-1s"
+              className=" animate__animated animate__fadeInDown animate__delay-1s"
               src={chatapp}
               alt="logo"
             />
-            <div className="about  animate__animated animate__fadeInRight animate__delay-1s">
+            <div className="about  animate__animated animate__fadeInDown animate__delay-1s">
               <h3 className="appName">Chat App</h3>
               <p className="appAbout">
                 A simple chat app built with React & firebase tools
@@ -66,11 +66,11 @@ const Portfolio = () => {
 
           <div className="one">
             <img
-              className=" animate__animated animate__fadeInLeft animate__delay-1s"
+              className=" animate__animated animate__fadeInDown animate__delay-1s"
               src={movie}
               alt="logo"
             />
-            <div className="about  animate__animated animate__fadeInRight animate__delay-1s">
+            <div className="about  animate__animated animate__fadeInDown animate__delay-1s">
               <h3 className="appName">Movie App</h3>
               <p className="appAbout">
                 A simple Movie app built with React & API
@@ -103,11 +103,11 @@ const Portfolio = () => {
 
           <div className="one">
             <img
-              className=" animate__animated animate__fadeInLeft animate__delay-1s"
+              className=" animate__animated animate__fadeInDown animate__delay-1s"
               src={youtube}
               alt="logo"
             />
-            <div className="about animate__animated animate__fadeInRight animate__delay-1s">
+            <div className="about animate__animated animate__fadeInDown animate__delay-1s">
               <h3 className="appName">Youtube clone</h3>
               <p className="appAbout">
                 A full youtube clone app built with React & Rapid API

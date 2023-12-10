@@ -18,10 +18,42 @@ text-transform: uppercase;
 
   .form-row {
      display: flex;
-     flex-direction: column;
-     align-items: flex-start;
+     align-items: center;
+     justify-content: space-between;
   }
-
+  .form-row .social{
+    display: flex;
+  }
+  .form-row .social a .github{
+    margin: 0 30px;
+    color: white;
+    transition: all 0.25s ease-in-out;
+    font-size: 45px;
+  }
+  .form-row .social a .twitter{
+    margin: 0 30px;
+    transition: all 0.25s ease-in-out;
+    color: white;
+    font-size: 45px;
+  }
+  .form-row .social a .linkedin{
+    margin-left: 30px;
+    transition: all 0.25s ease-in-out;
+    color: white;
+    font-size: 45px;
+  }
+  .form-row .social a .github:hover{
+    scale: 0.9;
+    color: grey;
+  }
+  .form-row .social a .twitter:hover{
+    scale: 0.9;
+    color: #1c96e8;
+  }
+  .form-row .social a .linkedin:hover{
+    scale: 0.9;
+    color: #0077af;
+  }
 
   #email,#name,#subject,#message{
     font-size: 15px;
@@ -71,4 +103,12 @@ text-transform: uppercase;
     input,textarea{
       width: 95%;
     }
+    .form-row  {
+      flex-direction: column;
+      row-gap: 20px;
+    }
+    .form-row .moreButton{
+      margin-top: 20px;
+    }
   }
+    

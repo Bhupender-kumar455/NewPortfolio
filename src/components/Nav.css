@@ -1,7 +1,29 @@
+.lightMode{
+  position: fixed;
+  right: 40px;
+  top: 50px;
+  z-index: 999;
+  border: none;
+  font-size: 30px;
+  background-color: transparent;
+  
+}
+.sunicon{
+  color: #ffb400;
+  border: none;
+  padding: 10px;
+}
+.moonicon{
+  border: none;
+  padding: 10px;
+  color: aliceblue;
+}
+
+
 .navParent {
   display: flex;
   flex-direction: column;
-  z-index: 999;
+  z-index: 3;
   align-items: center;
   justify-content: center;
   position: fixed;
