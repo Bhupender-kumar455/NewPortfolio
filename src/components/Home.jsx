@@ -1,6 +1,7 @@
 import React from "react";
 import "./Home.css";
 import "animate.css";
+import { Link } from "react-router-dom";
 import profilePhoto from "../assets/pink-circle-background-designify.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faArrowRight } from "@fortawesome/free-solid-svg-icons";
@@ -18,12 +19,12 @@ const Home = () => {
           <p>
           As a software developer, I specialize in creating clean and user-friendly experiences. My passion lies in building excellent, SEO-friendly software that positively impacts the lives of others.
           </p>
-          <a className="moreButton" href="/contact">
+          <Link className="moreButton" to="/contact">
             More about me!
             <span>
               <FontAwesomeIcon className="arrow" icon={faArrowRight} />
             </span>
-          </a>
+          </Link>
         </div>
       </div>
     </div>
