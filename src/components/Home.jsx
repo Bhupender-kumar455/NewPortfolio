@@ -18,7 +18,7 @@ const Home = () => {
           <p>
           As a software developer, I specialize in creating clean and user-friendly experiences. My passion lies in building excellent, SEO-friendly software that positively impacts the lives of others.
           </p>
-          <a className="moreButton" href="/about">
+          <a className="moreButton" href="/contact">
             More about me!
             <span>
               <FontAwesomeIcon className="arrow" icon={faArrowRight} />
