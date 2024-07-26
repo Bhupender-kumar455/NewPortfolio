@@ -12,6 +12,16 @@ import "animate.css";
 const About = () => {
   const barColor = "#FFB400";
   const textColor = "white";
+
+  const customStyles = {
+    path: {
+      stroke: barColor,
+    },
+    text: {
+      fill: textColor,
+      fontSize: '14px', // Adjust the font size here
+    },
+  };
   return (
     <div className="aboutparent ">
       <div className="about">
@@ -32,7 +42,7 @@ const About = () => {
                 marginBottom: "20px",
               }}
             >
-              Personal Infoma
+              Personal Information
             </h1>
             <div className="details">
               <p>
@@ -42,11 +52,9 @@ const About = () => {
                 Last Name:<span>Kumar</span>
               </p>
               <p>
-                Age: <span>21 Years</span>
+                Age: <span>22 Years</span>
               </p>
-              <p>
-                for job role: <span>Available</span>
-              </p>
+           
               <p>
                 Phone: <span>+919729640710</span>
               </p>
@@ -67,19 +75,19 @@ const About = () => {
               <p>
                 Nationality:<span>Indian</span>
               </p>
-              <p>
-                Address:
-                <span>
-                  Harayana,
-                  <br />
-                  Rohtak
-                </span>
-              </p>
+            
               <p>
                 Email:<span>kbhupender455@gmail.com</span>
               </p>
               <p>
                 Language:<span>English,Hindi</span>
+              </p>
+              <p>
+                Address:
+                <span>
+                  Harayana,
+                  Rohtak
+                </span>
               </p>
             </div>
             <div className="downloadButton">
@@ -97,108 +105,54 @@ const About = () => {
             <div className="circles">
               <CircularProgressbar
                 className="skills"
-                value={90}
-                text="HTML"
-                styles={{
-                  path: {
-                    stroke: barColor,
-                  },
-                  text: {
-                    fill: textColor,
-                  },
-                }}
-              />
+                value={100}
+
+                text="React.js"
+               styles={customStyles}
+               />
               <CircularProgressbar
                 className="skills"
-                value={70}
-                text="CSS"
-                styles={{
-                  path: {
-                    stroke: barColor,
-                  },
-                  text: {
-                    fill: textColor,
-                  },
-                }}
-              />
+                value={100}
+                text="Node.js"
+                styles={customStyles}
+                
+                />
               <CircularProgressbar
                 className="skills"
-                value={60}
-                text="JS"
-                styles={{
-                  path: {
-                    stroke: barColor,
-                  },
-                  text: {
-                    fill: textColor,
-                  },
-                }}
-              />
+                text="Express.js"
+                value={100}
+                styles={customStyles}
+                />
               <CircularProgressbar
                 className="skills"
-                value={80}
-                text="Bootstrap"
-                styles={{
-                  path: {
-                    stroke: barColor,
-                  },
-                  text: {
-                    fill: textColor,
-                  },
-                }}
-              />
+                value={100}
+                text="MongoDB"
+                styles={customStyles}
+                />
               <CircularProgressbar
                 className="skills"
-                value={69}
-                text="React"
-                styles={{
-                  path: {
-                    stroke: barColor,
-                  },
-                  text: {
-                    fill: textColor,
-                  },
-                }}
-              />
+                value={100}
+                text="Asp.net"
+                styles={customStyles}
+                />
               <CircularProgressbar
                 className="skills"
-                value={50}
-                text="Tailwind"
-                styles={{
-                  path: {
-                    stroke: barColor,
-                  },
-                  text: {
-                    fill: textColor,
-                  },
-                }}
-              />
+                value={100}
+                text=".Net Core "
+                styles={customStyles}
+                />
               <CircularProgressbar
                 className="skills"
-                value={70}
+                value={100}
                 text="Git"
-                styles={{
-                  path: {
-                    stroke: barColor,
-                  },
-                  text: {
-                    fill: textColor,
-                  },
-                }}
-              />
+                styles={customStyles}
+                />
               <CircularProgressbar
                 className="skills"
-                value={60}
-                text="Github"
-                styles={{
-                  path: {
-                    stroke: barColor,
-                  },
-                  text: {
-                    fill: textColor,
-                  },
-                }}
-              />
+                value={100}
+                text="MySQL"
+                styles={customStyles}
+                />
             </div>
           </div>
         </div>
@@ -206,6 +160,26 @@ const About = () => {
           <h1 className="heading">Expreince and Educations</h1>
           <div className="both">
             <div className="exp animate__animated animate__fadeInDown animate__delay-1s">
+
+            <div className="card">
+                <div className="logo">
+                  <FontAwesomeIcon icon={faSuitcase} />
+                </div>
+                <div className="work">
+                  <p style={{ textAlign: "left" }}>2024  - Present</p>
+                  <h3>
+                    Software Dev. - <strong>Softcron Techology</strong>
+                  </h3>
+                  <p>
+                  I'm well-versed in building and optimizing applications of all kinds, including ERP, CRM, CMS and e-commerce. React.js, Node.js and Express.js are my strong points when it comes to the web development of dynamic, scalable solutions. I have a background in backend technologies like MongoDB and MS SQL that complements my frontend skills well. And with Git GitHub, ASP.NET.NET Core we get robust maintainable code. Based on the practice of flexible design from Bootstrap and how to do project management through Jira, I pursue high-quality software which meets or even surpasses expectations from those who commission me.
+                  </p>
+                  <p className="extralarge" style={{ margin: "10px 0" }}>
+                    <strong>Tech used: </strong>
+                   React.js ,Node.js ,Express.js , MongoDB ,Git&Github ,Asp.net, .netCore , MSql,Bootstsrap & Jira 
+                  </p>
+                </div>
+              </div>
+
               <div className="card">
                 <div className="logo">
                   <FontAwesomeIcon icon={faSuitcase} />

@@ -13,12 +13,10 @@ const Home = () => {
           <h1 className="name" style={{ color: "#ffa001" }}>
             ~ Hi, I'm Bhupender.
             <br />
-            <span style={{ color: "#fefefe" }}> Web Developer</span>
+            <span style={{ color: "#fefefe" }}> Software Developer</span>
           </h1>
           <p>
-            I'm a front‑end developer focused on crafting clean & user‑friendly
-            experiences, I am passionate about building excellent software that
-            improves the lives of those around me.
+          As a software developer, I specialize in creating clean and user-friendly experiences. My passion lies in building excellent, SEO-friendly software that positively impacts the lives of others.
           </p>
           <a className="moreButton" href="/about">
             More about me!

@@ -1,3 +1,7 @@
+body{
+  overflow-x: hidden;
+
+}
 .contact {
     width: 100vw;
     box-sizing: border-box;
@@ -6,6 +10,7 @@
     font-family: "Poppins", sans-serif;
     padding: 20px;
     margin-bottom: 80px;
+    overflow-x: hidden;
   }
   .contact .back {
     position: relative;
