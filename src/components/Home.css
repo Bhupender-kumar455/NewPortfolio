@@ -1,6 +1,6 @@
 .home-parent {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   box-sizing: border-box;
   display: flex;
 }
@@ -60,7 +60,7 @@
   padding: 13px 18px;
   border-radius: 50px;
 }
-.moreButton:active{
+.moreButton:active {
   scale: 0.9;
 }
 .moreButton:hover {
@@ -103,10 +103,9 @@
     line-height: 23px;
   }
 }
-@media (max-width:550px) {
-  .home-parent{
+@media (max-width: 550px) {
+  .home-parent {
     height: 110vh;
     background-color: #111111;
-    
   }
 }

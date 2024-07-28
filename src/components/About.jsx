@@ -157,7 +157,7 @@ const About = () => {
           </div>
         </div>
         <div className="expAndeducation">
-          <h1 className="heading">Expreince and Educations</h1>
+          <h1 className="heading exp animate__animated animate__fadeInDown animate__delay-1s">Expreince and Educations</h1>
           <div className="both">
             <div className="exp animate__animated animate__fadeInDown animate__delay-1s">
 

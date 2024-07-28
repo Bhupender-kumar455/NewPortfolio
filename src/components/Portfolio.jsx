@@ -19,7 +19,7 @@ const Portfolio = () => {
 
       <div className="myworks">
         <div className="personal">
-          <h2 style={{ color: "white", textTransform: "uppercase" }}>
+          <h2 className="animate__animated animate__fadeInDown animate__delay-1s" style={{ color: "white", textTransform: "uppercase" }}>
             Personal projects
           </h2>
         </div>
